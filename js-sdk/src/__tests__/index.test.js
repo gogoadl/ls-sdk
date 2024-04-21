@@ -1,5 +1,4 @@
-const { add, subtract, multiply, divide } = require("../index");
-
+const { add, subtract, multiply, divide, LSLogger } = require('../index');
 describe('Calculator functions', () => {
   test('addition', () => {
     expect(add(1, 2)).toBe(3);

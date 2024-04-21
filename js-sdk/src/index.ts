@@ -1,3 +1,8 @@
+import LSLogger from './LSLogger';
+import LSClient from './LSClient';
+import types from './types';
+import utils from './utils';
+// for test
 function add(a: number, b: number) {
   return a + b;
 }
@@ -10,4 +15,5 @@ function multiply(a: number, b: number) {
 function divide(a: number, b: number) {
   return a / b;
 }
-export { add, subtract, multiply, divide };
+
+export { add, subtract, multiply, divide, LSLogger, LSClient, types, utils };

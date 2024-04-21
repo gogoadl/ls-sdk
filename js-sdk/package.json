@@ -1,6 +1,6 @@
 {
   "name": "lightswitch-js-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "light switch javascript sdk",
   "type": "module",
   "main": "dist/index.js",
